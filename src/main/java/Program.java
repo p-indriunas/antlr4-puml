@@ -5,19 +5,16 @@ public class Program {
 
         InputStream inputStream = Program.class.getResourceAsStream("/sample.puml");
 
-        final int bufferSize = 1024;
-        final char[] buffer = new char[bufferSize];
-        final StringBuilder out = new StringBuilder();
-        Reader in = new InputStreamReader(inputStream, "UTF-8");
-        for (; ; ) {
-            int rsz = in.read(buffer, 0, buffer.length);
-            if (rsz < 0)
-                break;
-            out.append(buffer, 0, rsz);
+        EntityDiagram diagram = new EntityDiagram();
+        diagram.load(inputStream);
+
+        for(EntityDiagram.Entity e : diagram.getEntities()) {
+            System.out.println(e);
         }
+        System.out.println();
 
-        System.out.println("Hello antlr");
-        System.out.println(out.toString());
-
+        for(EntityDiagram.Relation r : diagram.getRelations()) {
+            System.out.println(r);
+        }
     }
 }
