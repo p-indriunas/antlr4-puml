@@ -12,7 +12,8 @@ public class DiagramVisitor extends antlr4puml.parser.PackBaseVisitor<Diagram>  
 
         Diagram result = new Diagram();
 
-        result.name = ctx.startuml().name.getText();
+        if (ctx.startuml().name != null)
+            result.name = ctx.startuml().name.getText();
         result.body = bodyVisitor.visit(ctx.body());
 
         return result;

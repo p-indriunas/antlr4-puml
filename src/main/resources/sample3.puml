@@ -1,6 +1,6 @@
 @startuml Pack
 
-package Package1
+package Package3
 {
     entity A6
     entity B6

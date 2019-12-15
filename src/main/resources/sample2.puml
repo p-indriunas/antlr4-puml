@@ -2,8 +2,11 @@
 
 entity Z1
 
-package Package1
-{
+!include "sample1.puml"
+
+package Package2
+<
+    !include "sample3.puml"
     entity A6
     entity A7
     entity A8
@@ -12,7 +15,8 @@ package Package1
 
     A6 |o--|{ B6
     A6 }o--|{ B6
-}
+    A2"lcomment"}o--o{ B2
+>
 
 entity Z2
 entity Z3

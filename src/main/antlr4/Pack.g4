@@ -16,18 +16,21 @@ element:
     statement |
     packageDecl;
 
-packageDecl: PACKAGE name=VARIABLE? '{' body '}';
+packageDecl: PACKAGE name=VARIABLE? '<'? body '>'?;
 
 statement:
     entity |
-    relation
+    relation |
+    include
 ;
 
 entity: ENTITY name=VARIABLE;
-relation: (entityLeft=VARIABLE) (commentLeft=STR)? relationLeft=L_REL '--' relationRight=R_REL (commentRight=STR)? (entityRight=VARIABLE);
+relation: (entityLeft=VARIABLE) (commentLeft=STR)? relationLeft=leftRelation '-'+ relationRight=rightRelation (commentRight=STR)? (entityRight=VARIABLE);
+include: INCLUDE STR;
 
 PACKAGE: 'package';
 ENTITY: 'entity';
+INCLUDE: '!include';
 
 VARIABLE
 :
@@ -53,26 +56,23 @@ fragment VALID_ID_CHAR:
 	)
 ;
 
-CURL_OPENED: '{';
-CURL_CLOSED: '}';
+leftRelation: (L_M | L_M1 | L_M0 | L_01 | L_E1);
 
-L_REL: (L_M | L_M1 | L_M0 | L_01 | L_E1);
-
-L_M: '}' WS? {_input.LA(1) == '-'}?;
+L_M: '}' {_input.LA(1) == '-'}?;
 L_M1: '}|';
 L_M0: '}o';
 L_01: '|o';
 
-L_E1: '||' WS? {_input.LA(1) == '-'}?;
+L_E1: '||' {_input.LA(1) == '-'}?;
 
-R_REL: (R_M | R_M1 | R_M0 | R_01 | R_E1);
+rightRelation: (R_M | R_M1 | R_M0 | R_01 | R_E1);
 
-R_M: {_input.LA(-1) == '-'}? WS? '{';
+R_M: {_input.LA(-1) == '-'}? '{';
 R_M1: '|{';
 R_M0: 'o{';
 R_01: 'o|';
 
-R_E1: {_input.LA(-1) == '-'}? WS? '||';
+R_E1: {_input.LA(-1) == '-'}? '||';
 
 ID: ('A'..'Z' | 'a'..'z' | '0'..'9')+;
 STR: '"' ('A'..'Z' | 'a'..'z' | '1'..'9' | ' ')+ '"';
