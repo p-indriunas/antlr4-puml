@@ -18,11 +18,20 @@ A3 |o--o|"rcomment"B3
 
 entity A4
 entity B4
-A4||--||                B4
+A4||-||                B4
 
-entity A5
-entity B5
-A5  "lcomment"     ||--||  "rcomment"  B5
+    entity A5
+    entity B5
+    A5  "lcomment"     ||--||  "rcomment"  B5
 
+package Package1{
+    entity A6
+    entity B6
+    A6 |o-------|{ B6
+
+    entity A7
+    entity B7
+    A7 }-------down----------{ B7
+}
 
 @enduml

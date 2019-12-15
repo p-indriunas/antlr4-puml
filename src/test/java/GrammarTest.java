@@ -4,6 +4,7 @@ import junit.framework.TestSuite;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.ATNConfigSet;
 import org.antlr.v4.runtime.dfa.DFA;
+import org.junit.Ignore;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +16,8 @@ import java.util.List;
 /**
  * Unit test for simple App.
  */
+/*
+@Ignore
 public class GrammarTest extends TestCase
 {
     public GrammarTest(String testName)
@@ -57,7 +60,7 @@ public class GrammarTest extends TestCase
 
     public void testParser() throws IOException {
         ClassLoader classLoader = getClass().getClassLoader();
-        InputStream inputStream = getResourceStream("/sample.puml");
+        InputStream inputStream = getResourceStream("/sample2.puml");
 
         ErrorCollector lexErrors = new ErrorCollector();
         ErrorCollector syntaxErrors = new ErrorCollector();
@@ -76,7 +79,7 @@ public class GrammarTest extends TestCase
     public void testLexer() throws IOException {
         ClassLoader classLoader = getClass().getClassLoader();
         //File file = new File(classLoader.getResource("usecase1.plantuml").getFile());
-        InputStream inputStream = getResourceStream("/sample.puml");
+        InputStream inputStream = getResourceStream("/sample2.puml");
 
         ErrorCollector lexErrors = new ErrorCollector();
 
@@ -96,3 +99,5 @@ public class GrammarTest extends TestCase
         return Program.class.getResourceAsStream(resource);
     }
 }
+
+ */

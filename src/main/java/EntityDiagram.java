@@ -10,8 +10,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
-
-public class EntityDiagram implements PumlListener {
+/*
+public class EntityDiagram extends AbstractPumlListener {
 
     private ArrayList<Entity> entities = new ArrayList<>();
     private ArrayList<Relation> relations = new ArrayList<>();
@@ -41,59 +41,9 @@ public class EntityDiagram implements PumlListener {
     }
 
     @Override
-    public void enterDiagram(PumlParser.DiagramContext ctx) {
-
-    }
-
-    @Override
-    public void exitDiagram(PumlParser.DiagramContext ctx) {
-
-    }
-
-    @Override
-    public void enterStatement(PumlParser.StatementContext ctx) {
-
-    }
-
-    @Override
-    public void exitStatement(PumlParser.StatementContext ctx) {
-
-    }
-
-    @Override
-    public void enterEntity(PumlParser.EntityContext ctx) {
-
-    }
-
-    @Override
     public void exitEntity(PumlParser.EntityContext ctx) {
         Entity entity = new Entity(ctx.entityId.getText());
         entities.add(entity);
-    }
-
-    @Override
-    public void enterStartuml(PumlParser.StartumlContext ctx) {
-
-    }
-
-    @Override
-    public void exitStartuml(PumlParser.StartumlContext ctx) {
-
-    }
-
-    @Override
-    public void enterEnduml(PumlParser.EndumlContext ctx) {
-
-    }
-
-    @Override
-    public void exitEnduml(PumlParser.EndumlContext ctx) {
-
-    }
-
-    @Override
-    public void enterRelation(PumlParser.RelationContext ctx) {
-
     }
 
     @Override
@@ -104,27 +54,6 @@ public class EntityDiagram implements PumlListener {
         relation.entityRight = ctx.idRight.getText();
         relation.relationRight = ctx.R_REL().getText();
         relations.add(relation);
-    }
-
-
-    @Override
-    public void visitTerminal(TerminalNode terminalNode) {
-
-    }
-
-    @Override
-    public void visitErrorNode(ErrorNode errorNode) {
-
-    }
-
-    @Override
-    public void enterEveryRule(ParserRuleContext parserRuleContext) {
-
-    }
-
-    @Override
-    public void exitEveryRule(ParserRuleContext parserRuleContext) {
-
     }
 
     public class Entity {
@@ -191,3 +120,4 @@ public class EntityDiagram implements PumlListener {
         }
     }
 }
+*/

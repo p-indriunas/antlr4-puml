@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e974ae5-29a8-4233-8f08-82f495bc0eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EntityDiagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GrammarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/antlr4/puml.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/antlr4/puml.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sample.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/antlr4/Pack.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/antlr4/Pack.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Relation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Visitors/BodyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Visitors/BodyVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Visitors/EntityVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Visitors/EntityVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Visitors/PackageVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Visitors/PackageVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Visitors/RelationVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Visitors/RelationVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample2.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample2.puml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +28,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/EntityVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="78" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/RelationVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/BodyVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,22 +87,50 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NL</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/antlr4/puml.g4" />
-        <option value="$PROJECT_DIR$/src/test/java/GrammarTest.java" />
-        <option value="$PROJECT_DIR$/src/main/antlr4/Puml.g4" />
-        <option value="$PROJECT_DIR$/src/main/resources/sample.puml" />
         <option value="$PROJECT_DIR$/src/main/java/Entity.java" />
         <option value="$PROJECT_DIR$/src/main/java/Relation.java" />
+        <option value="$PROJECT_DIR$/src/main/antlr4/puml.g4" />
+        <option value="$PROJECT_DIR$/src/main/resources/sample.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/AbstractPumlListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/EntityDiagram.java" />
         <option value="$PROJECT_DIR$/src/main/java/Program.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/DiagramBodyVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/DiagramBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Diagram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/DiagramVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Diagram.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PackTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GrammarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Package.java" />
+        <option value="$PROJECT_DIR$/src/main/antlr4/Puml.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Body.java" />
+        <option value="$PROJECT_DIR$/src/main/antlr4/Pack2.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Relation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sample2.puml" />
+        <option value="$PROJECT_DIR$/src/main/antlr4/Pack.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/EntityVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/RelationVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/PackageVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Visitors/BodyVisitor.java" />
       </list>
     </option>
   </component>
@@ -109,8 +180,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="288" />
+    <option name="y" value="58" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -144,7 +215,37 @@
               <item name="antlr4puml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4puml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antlr4puml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4puml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antlr4puml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4puml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antlr4puml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4puml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antlr4puml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="antlr4puml" type="b2602c69:ProjectViewProjectNode" />
@@ -168,13 +269,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/antlr4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ErrorList" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Visitors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\git\antlr4puml\src\main\antlr4" />
+      <recent name="E:\Work\git\antlr4puml\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,60 +298,108 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="antlr4puml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PackTest.testParser">
+    <configuration name="PackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="antlr4puml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="testParser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrammarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="antlr4puml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GrammarTest" />
+      <option name="MAIN_CLASS_NAME" value="PackTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrammarTest.testLexer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PackTest.testParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="antlr4puml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GrammarTest" />
-      <option name="METHOD_NAME" value="testLexer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrammarTest.testParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="antlr4puml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GrammarTest" />
+      <option name="MAIN_CLASS_NAME" value="PackTest" />
       <option name="METHOD_NAME" value="testParser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="antlr4-puml [antlr4:antlr4]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="antlr4:antlr4" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="antlr4-puml [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="antlr4-puml [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
-        <item itemvalue="JUnit.GrammarTest" />
-        <item itemvalue="JUnit.GrammarTest.testParser" />
-        <item itemvalue="JUnit.GrammarTest.testLexer" />
-        <item itemvalue="JUnit.AppTest.testParser" />
+        <item itemvalue="JUnit.PackTest.testParser" />
+        <item itemvalue="JUnit.PackTest" />
+        <item itemvalue="Maven.antlr4-puml [test]" />
+        <item itemvalue="Maven.antlr4-puml [compile]" />
+        <item itemvalue="Maven.antlr4-puml [antlr4:antlr4]" />
       </list>
     </recent_temporary>
   </component>
@@ -257,35 +414,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 06m 21s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 14h 16m 33s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 06m 46s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 14h 17m 23s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 07m 55s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 16m 14s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 08m 11s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 20m 35s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 08m 54s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 24m 59s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 09m 19s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 25m 03s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 10m 18s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 25m 59s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 20m 47s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 27m 19s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 31m 03s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 29m 34s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrammarTest - 2019.08.18 at 21h 32m 54s.xml">
-      <configuration name="GrammarTest" configurationId="JUnit" />
+    <history-entry file="PackTest_testParser - 2019.12.15 at 22h 32m 18s.xml">
+      <configuration name="PackTest.testParser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -301,15 +458,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.14978679" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.14978679" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50080776" side_tool="true" weight="0.12260128" />
+      <window_info anchor="bottom" id="Tool Output" />
+      <window_info anchor="bottom" id="ANTLR Preview" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -317,14 +476,32 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="PlantUML" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="PlantUML" order="6" weight="0.24786781" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PackTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Visitors/BodyVisitor.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -351,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/PumlLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/PumlParser.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6936">
@@ -376,34 +546,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Relation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ErrorList/ErrorCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Relation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ErrorList/ErrorCollector.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar!/org/antlr/v4/runtime/Recognizer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -418,50 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EntityDiagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#2901#2902#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
-            <element signature="e#3070#3071#0" expanded="true" />
-            <element signature="e#3108#3109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GrammarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sample.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/PumlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="354" column="62" selection-start-line="354" selection-start-column="62" selection-end-line="354" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/PumlListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -469,23 +570,366 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/antlr4/Puml.g4">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.3/antlr4-runtime-4.3.jar!/org/antlr/v4/runtime/IntStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="204">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/PumlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="307" column="36" lean-forward="true" selection-start-line="307" selection-start-column="36" selection-end-line="307" selection-end-column="36" />
+          <folding>
+            <element signature="e#9931#9932#0" expanded="true" />
+            <element signature="e#9987#9988#0" expanded="true" />
+            <element signature="e#10033#10034#0" expanded="true" />
+            <element signature="e#10088#10089#0" expanded="true" />
+            <element signature="e#10163#10164#0" expanded="true" />
+            <element signature="e#10200#10201#0" expanded="true" />
+            <element signature="e#11557#11558#0" expanded="true" />
+            <element signature="e#11612#11613#0" expanded="true" />
+            <element signature="e#11646#11647#0" expanded="true" />
+            <element signature="e#11699#11700#0" expanded="true" />
+            <element signature="e#11772#11773#0" expanded="true" />
+            <element signature="e#11809#11810#0" expanded="true" />
+            <element signature="e#13101#13102#0" expanded="true" />
+            <element signature="e#13143#13144#0" expanded="true" />
+            <element signature="e#13283#13284#0" expanded="true" />
+            <element signature="e#13320#13321#0" expanded="true" />
+            <element signature="e#14728#14729#0" expanded="true" />
+            <element signature="e#14770#14771#0" expanded="true" />
+            <element signature="e#15194#15195#0" expanded="true" />
+            <element signature="e#15236#15237#0" expanded="true" />
+            <element signature="e#15279#15280#0" expanded="true" />
+            <element signature="e#15330#15331#0" expanded="true" />
+            <element signature="e#15402#15403#0" expanded="true" />
+            <element signature="e#15439#15440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/PumlLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PackageTest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AbstractPumlListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/antlr4puml/parser/PackVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="196" column="18" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/PackParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sample.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Diagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/antlr4puml/parser/PackParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="411" column="28" selection-start-line="411" selection-start-column="28" selection-end-line="411" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="226" column="16" lean-forward="true" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sample3.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/antlr4/Pack2.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EntityDiagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="90" column="9" selection-start-line="77" selection-start-column="8" selection-end-line="90" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Relation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GrammarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/antlr4/Pack.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/antlr4/Puml.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" selection-start-line="15" selection-end-line="36" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/DiagramVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sample2.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/EntityVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="78" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/RelationVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/PackageVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/antlr4puml/parser/PackBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitors/BodyVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -503,6 +947,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>antlr4puml</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

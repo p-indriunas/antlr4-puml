@@ -1,0 +1,22 @@
+@startuml Pack
+
+entity Z1
+
+package Package1
+{
+    entity A6
+    entity A7
+    entity A8
+    entity A9
+    entity B6
+
+    A6 |o--|{ B6
+    A6 }o--|{ B6
+}
+
+entity Z2
+entity Z3
+
+Z2 ||--|| Z3
+
+@enduml

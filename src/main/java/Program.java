@@ -1,10 +1,12 @@
 import java.io.*;
 
 public class Program {
+
     public static void main(String[] args) throws IOException {
 
         InputStream inputStream = Program.class.getResourceAsStream("/sample.puml");
 
+        /*
         EntityDiagram diagram = new EntityDiagram();
         diagram.load(inputStream);
 
@@ -16,5 +18,7 @@ public class Program {
         for(EntityDiagram.Relation r : diagram.getRelations()) {
             System.out.println(r);
         }
+
+         */
     }
 }
